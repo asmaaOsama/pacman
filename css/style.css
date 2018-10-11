@@ -1,0 +1,40 @@
+div{
+	margin: -3px;
+	vertical-align: top;
+}
+#world{
+	text-align: center;
+}
+.pacman{	
+	background-image: url(../images/pacman.png);
+	display: inline-block;
+	width: 50px;
+	height: 50px;	
+}
+.wall{	
+	background-image: url(../images/wall.png);	
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+.coin{
+	background-image: url(../images/coin.png);
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+.ground{
+	background-image: url(../images/bg.png);
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+#score{
+	margin: 0;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+    width: 88px;
+    height: 40px;
+    margin: 20px auto;
+}
